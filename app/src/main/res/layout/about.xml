@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabHost6"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#3E96AA"
+                android:textSize="45sp"
+                android:textColor="#b61cff"
+                android:transitionGroup="false"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/iab">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/imageView5"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/ian" />
+
+                    <ImageButton
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/imageButton20"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/globe" />
+
+                    <ImageButton
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/imageButton21"
+                        android:layout_alignTop="@+id/imageButton20"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/iay" />
+
+                    <ImageButton
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/imageButton22"
+                        android:layout_alignTop="@+id/imageButton20"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/iaz" />
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/scrollView3"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/imageView5"
+                        android:layout_above="@+id/imageButton20" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:id="@+id/textView16"
+                            android:layout_alignTop="@+id/scrollView3"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="#080906"
+                            android:layout_marginLeft="15dp"
+                            android:text="bbbb" />
+                    </ScrollView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/iab">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="120dp"
+                        android:id="@+id/imageView6"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/iavv" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BRAIN BOX :"
+                        android:id="@+id/button8"
+                        android:layout_below="@+id/imageView6"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:textColor="#18778e"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginLeft="10dp"/>
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/listView6"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="44dp"
+                        android:layout_below="@+id/button8"
+                        android:layout_above="@+id/button"
+                        android:divider="#295bff"
+                        android:dividerHeight="2dp"
+                        android:headerDividersEnabled="true"
+                        android:choiceMode="singleChoice"
+                        android:clickable="false"
+                        android:drawSelectorOnTop="true"
+                        android:contentDescription="@android:string/httpErrorUnsupportedScheme" />
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text=""
+                        android:id="@+id/button"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/iai"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"/>
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text=""
+                        android:id="@+id/button10"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/iad"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text=""
+                        android:id="@+id/button11"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/iaf"
+                        android:textStyle="bold"
+                        android:layout_marginRight="10dp"/>
+                </RelativeLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+
+
+</RelativeLayout>

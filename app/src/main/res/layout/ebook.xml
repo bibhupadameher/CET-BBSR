@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#CBCCCD">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabHost5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#3E96AA"
+                android:textSize="45sp"
+                android:textColor="#b61cff"
+                android:transitionGroup="true"/>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/iab">
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/listView5"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="55dp"
+                        android:visibility="visible"
+                        android:divider="#830fff" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Suggest a video"
+                        android:id="@+id/button8"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:textStyle="bold"
+                        android:background="#A39AB5" />
+
+                    <Spinner
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/spinner2"
+                        android:spinnerMode="dialog"
+                        android:visibility="visible"
+                        android:popupBackground="#1829ff"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/iab">
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/listView4"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="55dp"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Suggest an e-book"
+                        android:id="@+id/button7"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#A39AB5"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/spinner"
+                        android:spinnerMode="dialog"
+                        android:visibility="visible"
+                        android:popupBackground="#1829ff"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:id="@+id/textView17"
+                        android:layout_below="@+id/spinner"
+                        android:layout_toRightOf="@+id/listView4"
+                        android:layout_toEndOf="@+id/listView4"
+                        android:layout_marginTop="31dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_above="@+id/button7"
+                        android:textColor="#394d4e" />
+
+
+                </RelativeLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

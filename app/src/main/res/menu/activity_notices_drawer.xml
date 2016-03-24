@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Academics"
+            android:icon="@drawable/qa"
+            android:title="Academics" />
+        <item
+            android:id="@+id/Study_material"
+            android:icon="@drawable/qb"
+            android:title="Study Material" />
+        <item
+            android:id="@+id/Events"
+            android:icon="@drawable/iooo"
+            android:title="Events" />
+        <item
+            android:id="@+id/Portal"
+            android:icon="@drawable/iio"
+            android:title="Portal" />
+        <item
+            android:id="@+id/Results"
+            android:icon="@drawable/qcc"
+            android:title="Results" />
+        <item
+            android:id="@+id/Clubs"
+            android:icon="@drawable/qd"
+            android:title="Clubs" />
+        <item
+            android:id="@+id/Gallery"
+            android:icon="@drawable/qe"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/Fest"
+            android:icon="@drawable/qf"
+            android:title="Fest" />
+        <item
+            android:id="@+id/Holiday"
+            android:icon="@drawable/qg"
+            android:title="Holiday List" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/qh"
+            android:title="About Us" />
+    </group>
+
+
+
+</menu>

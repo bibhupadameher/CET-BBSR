@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CET-BBSR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome_txt">GCM App</string>
+    <string name="email">Email Address</string>
+    <string name="login">Register Me</string>
+    <string name="defaultmsg">Message sent by server will appear here.</string>
+    <string name="msg_title">Message</string>
+    <string name="user_title">Hello User</string>
+    <string name="title_activity_notices">CET-BBSR</string>
+    <string name="title_activity_home2">CET-BBSR</string>
+</resources>
